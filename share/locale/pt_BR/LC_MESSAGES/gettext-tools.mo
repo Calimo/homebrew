@@ -1,0 +1,1 @@
+../../../../Cellar/gettext/0.23.1/share/locale/pt_BR/LC_MESSAGES/gettext-tools.mo

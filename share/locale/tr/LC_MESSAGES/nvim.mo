@@ -1,0 +1,1 @@
+../../../../Cellar/neovim/0.10.3/share/locale/tr/LC_MESSAGES/nvim.mo
