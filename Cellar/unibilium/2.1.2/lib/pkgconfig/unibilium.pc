@@ -1,0 +1,9 @@
+libdir=/Users/calimo/brew/Cellar/unibilium/2.1.2/lib
+includedir=/Users/calimo/brew/Cellar/unibilium/2.1.2/include
+version=2.1.2
+
+Name: unibilium
+Description: terminfo parser and utility functions
+Version: ${version}
+Libs: -L${libdir} -lunibilium
+Cflags: -I${includedir}

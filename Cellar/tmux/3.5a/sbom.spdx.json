@@ -1,0 +1,240 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "name": "SBOM-SPDX-tmux-3.5a",
+  "creationInfo": {
+    "created": "2025-01-15T19:51:47Z",
+    "creators": [
+      "Tool: https://github.com/Homebrew/brew@4.4.16-31-g256e826"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://formulae.brew.sh/spdx/tmux-3.5a.json",
+  "documentDescribes": [
+    "SPDXRef-Archive-tmux-src",
+    "SPDXRef-Package-SPDXRef-ca-certificates-2024-12-31",
+    "SPDXRef-Package-SPDXRef-openssl@3-3.4.0",
+    "SPDXRef-Package-SPDXRef-libevent-2.1.12_1",
+    "SPDXRef-Package-SPDXRef-ncurses-6.5",
+    "SPDXRef-Package-SPDXRef-utf8proc-2.10.0",
+    "SPDXRef-Compiler",
+    "SPDXRef-Bottle-tmux"
+  ],
+  "files": [
+
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Archive-tmux-src",
+      "name": "tmux",
+      "versionInfo": "3.5a",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-10-05 06:00:16 UTC",
+      "licenseConcluded": "ISC",
+      "downloadLocation": "https://github.com/tmux/tmux/releases/download/3.5a/tmux-3.5a.tar.gz",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "16216bd0877170dfcc64157085ba9013610b12b082548c7c9542cc0103198951"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-ca-certificates-2024-12-31",
+      "name": "ca-certificates",
+      "versionInfo": "2024-12-31",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "MPL-2.0",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:414ada64e60703cd4e9aa97f36e29c1a7ec73d60862b5219b8110731fcfd2cb7",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "414ada64e60703cd4e9aa97f36e29c1a7ec73d60862b5219b8110731fcfd2cb7"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/ca-certificates@2024-12-31",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-openssl@3-3.4.0",
+      "name": "openssl@3",
+      "versionInfo": "3.4.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "Apache-2.0",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:28e2abc928e8afd0c58303de69dab5e4ec8663c5591fe3c425ad9177bf377ded",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "28e2abc928e8afd0c58303de69dab5e4ec8663c5591fe3c425ad9177bf377ded"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/openssl@3@3.4.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-libevent-2.1.12_1",
+      "name": "libevent",
+      "versionInfo": "2.1.12_1",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "BSD-3-Clause",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/libevent/blobs/sha256:5d54f13cd93d87185bd7bb592cb945d1f64cac3e88d1e46c2fb5d9ea538d9623",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5d54f13cd93d87185bd7bb592cb945d1f64cac3e88d1e46c2fb5d9ea538d9623"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/libevent@2.1.12_1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-ncurses-6.5",
+      "name": "ncurses",
+      "versionInfo": "6.5",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/ncurses/blobs/sha256:eb22b3753261f99aa36f5d9e1511a0bca5ea70cd645f7068af2ac5514aafd6a7",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "eb22b3753261f99aa36f5d9e1511a0bca5ea70cd645f7068af2ac5514aafd6a7"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/ncurses@6.5",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-utf8proc-2.10.0",
+      "name": "utf8proc",
+      "versionInfo": "2.10.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "MIT AND Unicode-DFS-2015",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/utf8proc/blobs/sha256:94a054d454bd5df62734457a4ac938ab20b3637ae8ee9d36e37fa72fb9adaf41",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "94a054d454bd5df62734457a4ac938ab20b3637ae8ee9d36e37fa72fb9adaf41"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/utf8proc@2.10.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Compiler",
+      "name": "clang",
+      "versionInfo": "16.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "checksums": [
+
+      ],
+      "externalRefs": [
+
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Bottle-tmux",
+      "name": "tmux",
+      "versionInfo": "3.5a",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-10-05 06:00:16 UTC",
+      "licenseConcluded": "ISC",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/tmux/blobs/sha256:2e10a69a7d9828300ef1ec19f139c6d7eef7522d451e8812073460c4ba61ac28",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/homebrew/core/tmux@3.5a",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2e10a69a7d9828300ef1ec19f139c6d7eef7522d451e8812073460c4ba61ac28"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-ca-certificates-2024-12-31",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-tmux"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-openssl@3-3.4.0",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-tmux"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-libevent-2.1.12_1",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-tmux"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-ncurses-6.5",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-tmux"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-utf8proc-2.10.0",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-tmux"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-tmux",
+      "relationshipType": "PACKAGE_OF",
+      "relatedSpdxElement": "SPDXRef-Archive-tmux-src"
+    },
+    {
+      "spdxElementId": "SPDXRef-Compiler",
+      "relationshipType": "BUILD_TOOL_OF",
+      "relatedSpdxElement": "SPDXRef-Package-tmux-src"
+    }
+  ]
+}

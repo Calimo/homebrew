@@ -1,0 +1,12 @@
+prefix=/Users/calimo/brew/Cellar/pkgconf/2.3.0_1
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=/Users/calimo/brew/Cellar/pkgconf/2.3.0_1/lib
+
+Name: libpkgconf
+Description: a library for accessing and manipulating development framework configuration
+URL: https://gitea.treehouse.systems/ariadne/pkgconf
+License: ISC
+Version: 2.3.0
+CFlags: -I${includedir}/pkgconf
+Libs: -L${libdir} -lpkgconf

@@ -1,0 +1,12 @@
+prefix=/Users/calimo/brew/Cellar/luv/1.48.0-2
+exec_prefix=${prefix}
+libdir=/Users/calimo/brew/Cellar/luv/1.48.0-2/lib
+includedir=/Users/calimo/brew/Cellar/luv/1.48.0-2/include/luv
+
+Name: libluv
+Version: 1.48.0
+Description: Bare and full libuv bindings for Lua/LuaJIT.
+URL: https://github.com/luvit/luv
+
+Libs: -L${libdir} -lluv 
+Cflags: -I${includedir}

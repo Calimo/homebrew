@@ -1,0 +1,95 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "name": "SBOM-SPDX-libvterm-0.3.3",
+  "creationInfo": {
+    "created": "2025-01-15T19:32:05Z",
+    "creators": [
+      "Tool: https://github.com/Homebrew/brew@4.4.16-31-g256e826"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://formulae.brew.sh/spdx/libvterm-0.3.3.json",
+  "documentDescribes": [
+    "SPDXRef-Archive-libvterm-src",
+    "SPDXRef-Compiler",
+    "SPDXRef-Bottle-libvterm"
+  ],
+  "files": [
+
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Archive-libvterm-src",
+      "name": "libvterm",
+      "versionInfo": "0.3.3",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2023-08-03 18:43:52 UTC",
+      "licenseConcluded": "MIT",
+      "downloadLocation": "https://launchpad.net/libvterm/trunk/v0.3/+download/libvterm-0.3.3.tar.gz",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "09156f43dd2128bd347cbeebe50d9a571d32c64e0cf18d211197946aff7226e0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Compiler",
+      "name": "clang",
+      "versionInfo": "16.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "checksums": [
+
+      ],
+      "externalRefs": [
+
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Bottle-libvterm",
+      "name": "libvterm",
+      "versionInfo": "0.3.3",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2023-08-03 18:43:52 UTC",
+      "licenseConcluded": "MIT",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/libvterm/blobs/sha256:bf0735a8ec7f8ce6d048b97f1851fa06c0a604a53ccc181fb793ce03e2714483",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/homebrew/core/libvterm@0.3.3",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bf0735a8ec7f8ce6d048b97f1851fa06c0a604a53ccc181fb793ce03e2714483"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-File-libvterm",
+      "relationshipType": "PACKAGE_OF",
+      "relatedSpdxElement": "SPDXRef-Archive-libvterm-src"
+    },
+    {
+      "spdxElementId": "SPDXRef-Compiler",
+      "relationshipType": "BUILD_TOOL_OF",
+      "relatedSpdxElement": "SPDXRef-Package-libvterm-src"
+    }
+  ]
+}

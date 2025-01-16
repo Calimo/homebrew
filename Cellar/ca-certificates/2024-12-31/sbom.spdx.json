@@ -1,0 +1,95 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "name": "SBOM-SPDX-ca-certificates-2024-12-31",
+  "creationInfo": {
+    "created": "2025-01-15T19:44:34Z",
+    "creators": [
+      "Tool: https://github.com/Homebrew/brew@4.4.16-31-g256e826"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://formulae.brew.sh/spdx/ca-certificates-2024-12-31.json",
+  "documentDescribes": [
+    "SPDXRef-Archive-ca-certificates-src",
+    "SPDXRef-Compiler",
+    "SPDXRef-Bottle-ca-certificates"
+  ],
+  "files": [
+
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Archive-ca-certificates-src",
+      "name": "ca-certificates",
+      "versionInfo": "2024-12-31",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-12-31 04:12:05 UTC",
+      "licenseConcluded": "MPL-2.0",
+      "downloadLocation": "https://curl.se/ca/cacert-2024-12-31.pem",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a3f328c21e39ddd1f2be1cea43ac0dec819eaa20a90425d7da901a11531b3aa5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Compiler",
+      "name": "clang",
+      "versionInfo": "16.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "checksums": [
+
+      ],
+      "externalRefs": [
+
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Bottle-ca-certificates",
+      "name": "ca-certificates",
+      "versionInfo": "2024-12-31",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-12-31 04:12:05 UTC",
+      "licenseConcluded": "MPL-2.0",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:414ada64e60703cd4e9aa97f36e29c1a7ec73d60862b5219b8110731fcfd2cb7",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/homebrew/core/ca-certificates@2024-12-31",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "414ada64e60703cd4e9aa97f36e29c1a7ec73d60862b5219b8110731fcfd2cb7"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-File-ca-certificates",
+      "relationshipType": "PACKAGE_OF",
+      "relatedSpdxElement": "SPDXRef-Archive-ca-certificates-src"
+    },
+    {
+      "spdxElementId": "SPDXRef-Compiler",
+      "relationshipType": "BUILD_TOOL_OF",
+      "relatedSpdxElement": "SPDXRef-Package-ca-certificates-src"
+    }
+  ]
+}

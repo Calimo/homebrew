@@ -1,0 +1,95 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "name": "SBOM-SPDX-libunistring-1.3",
+  "creationInfo": {
+    "created": "2025-01-15T19:32:07Z",
+    "creators": [
+      "Tool: https://github.com/Homebrew/brew@4.4.16-31-g256e826"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://formulae.brew.sh/spdx/libunistring-1.3.json",
+  "documentDescribes": [
+    "SPDXRef-Archive-libunistring-src",
+    "SPDXRef-Compiler",
+    "SPDXRef-Bottle-libunistring"
+  ],
+  "files": [
+
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Archive-libunistring-src",
+      "name": "libunistring",
+      "versionInfo": "1.3",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-10-16 12:13:34 UTC",
+      "licenseConcluded": "GPL-2.0-only OR LGPL-3.0-or-later",
+      "downloadLocation": "https://ftp.gnu.org/gnu/libunistring/libunistring-1.3.tar.gz",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8ea8ccf86c09dd801c8cac19878e804e54f707cf69884371130d20bde68386b7"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Compiler",
+      "name": "clang",
+      "versionInfo": "16.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "checksums": [
+
+      ],
+      "externalRefs": [
+
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Bottle-libunistring",
+      "name": "libunistring",
+      "versionInfo": "1.3",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-10-16 12:13:34 UTC",
+      "licenseConcluded": "GPL-2.0-only OR LGPL-3.0-or-later",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/libunistring/blobs/sha256:e919f6ee2fe8a40addea1e1840eab8855e66812e18dfe05c130618ce517e2880",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/homebrew/core/libunistring@1.3",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e919f6ee2fe8a40addea1e1840eab8855e66812e18dfe05c130618ce517e2880"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-File-libunistring",
+      "relationshipType": "PACKAGE_OF",
+      "relatedSpdxElement": "SPDXRef-Archive-libunistring-src"
+    },
+    {
+      "spdxElementId": "SPDXRef-Compiler",
+      "relationshipType": "BUILD_TOOL_OF",
+      "relatedSpdxElement": "SPDXRef-Package-libunistring-src"
+    }
+  ]
+}

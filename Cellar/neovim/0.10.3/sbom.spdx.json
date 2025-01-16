@@ -1,0 +1,385 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "name": "SBOM-SPDX-neovim-0.10.3",
+  "creationInfo": {
+    "created": "2025-01-15T19:42:45Z",
+    "creators": [
+      "Tool: https://github.com/Homebrew/brew@4.4.16-31-g256e826"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://formulae.brew.sh/spdx/neovim-0.10.3.json",
+  "documentDescribes": [
+    "SPDXRef-Archive-neovim-src",
+    "SPDXRef-Package-SPDXRef-libvterm-0.3.3",
+    "SPDXRef-Package-SPDXRef-msgpack-6.1.0",
+    "SPDXRef-Package-SPDXRef-libunistring-1.3",
+    "SPDXRef-Package-SPDXRef-gettext-0.23.1",
+    "SPDXRef-Package-SPDXRef-libuv-1.49.2",
+    "SPDXRef-Package-SPDXRef-lpeg-1.1.0",
+    "SPDXRef-Package-SPDXRef-luajit-2.1.1736781742",
+    "SPDXRef-Package-SPDXRef-luv-1.48.0-2",
+    "SPDXRef-Package-SPDXRef-tree-sitter-0.24.7",
+    "SPDXRef-Package-SPDXRef-unibilium-2.1.2",
+    "SPDXRef-Compiler",
+    "SPDXRef-Bottle-neovim"
+  ],
+  "files": [
+
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Archive-neovim-src",
+      "name": "neovim",
+      "versionInfo": "0.10.3",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-12-21 17:15:18 UTC",
+      "licenseConcluded": "Apache-2.0",
+      "downloadLocation": "https://github.com/neovim/neovim/archive/refs/tags/v0.10.3.tar.gz",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "39fab47d241da7b9418823cc563c689d522c1c4b2def04036393834f3f1ca94c"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-libvterm-0.3.3",
+      "name": "libvterm",
+      "versionInfo": "0.3.3",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/libvterm/blobs/sha256:bf0735a8ec7f8ce6d048b97f1851fa06c0a604a53ccc181fb793ce03e2714483",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bf0735a8ec7f8ce6d048b97f1851fa06c0a604a53ccc181fb793ce03e2714483"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/libvterm@0.3.3",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-msgpack-6.1.0",
+      "name": "msgpack",
+      "versionInfo": "6.1.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "BSL-1.0",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:f8a10c653f0e071f725866c790eebef4161f4c172315388aefdada07682c46bd",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f8a10c653f0e071f725866c790eebef4161f4c172315388aefdada07682c46bd"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/msgpack@6.1.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-libunistring-1.3",
+      "name": "libunistring",
+      "versionInfo": "1.3",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "GPL-2.0-only OR LGPL-3.0-or-later",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/libunistring/blobs/sha256:e919f6ee2fe8a40addea1e1840eab8855e66812e18dfe05c130618ce517e2880",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e919f6ee2fe8a40addea1e1840eab8855e66812e18dfe05c130618ce517e2880"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/libunistring@1.3",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-gettext-0.23.1",
+      "name": "gettext",
+      "versionInfo": "0.23.1",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "GPL-3.0-or-later",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:89b1b668765938504ce64f991cf6b81fc96765f5dec84bbf64c007c3d811b8fe",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "89b1b668765938504ce64f991cf6b81fc96765f5dec84bbf64c007c3d811b8fe"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/gettext@0.23.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-libuv-1.49.2",
+      "name": "libuv",
+      "versionInfo": "1.49.2",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:1c30f58448ce9c0d30cef601a475a1986d1cf072188b110adf783c7002a9b559",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1c30f58448ce9c0d30cef601a475a1986d1cf072188b110adf783c7002a9b559"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/libuv@1.49.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-lpeg-1.1.0",
+      "name": "lpeg",
+      "versionInfo": "1.1.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/lpeg/blobs/sha256:8d5ac91544867d83ce0ec6f407e6a3ead572ccbd523234d2673322da355435fb",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8d5ac91544867d83ce0ec6f407e6a3ead572ccbd523234d2673322da355435fb"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/lpeg@1.1.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-luajit-2.1.1736781742",
+      "name": "luajit",
+      "versionInfo": "2.1.1736781742",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:fbcaa9ad4a184e2e4f1926f46e9917dbf81b7809eeb373eb9478e1ca57fbc572",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fbcaa9ad4a184e2e4f1926f46e9917dbf81b7809eeb373eb9478e1ca57fbc572"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/luajit@2.1.1736781742",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-luv-1.48.0-2",
+      "name": "luv",
+      "versionInfo": "1.48.0-2",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "Apache-2.0",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:b573480537972f4d8479623184281fc3e5b78a3e8d92e8b5eaf743db9584e5d8",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b573480537972f4d8479623184281fc3e5b78a3e8d92e8b5eaf743db9584e5d8"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/luv@1.48.0-2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-tree-sitter-0.24.7",
+      "name": "tree-sitter",
+      "versionInfo": "0.24.7",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/tree-sitter/blobs/sha256:af544600e90d4bfaf5b8ce3a0fcfb7b7734dfe3b453f619149e20ba2e5c33460",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "af544600e90d4bfaf5b8ce3a0fcfb7b7734dfe3b453f619149e20ba2e5c33460"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/tree-sitter@0.24.7",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-unibilium-2.1.2",
+      "name": "unibilium",
+      "versionInfo": "2.1.2",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "LGPL-3.0-or-later",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/unibilium/blobs/sha256:19a58769977601b8bbc47959efeefb4bad5cc938d7dcde0c083c8227d8296026",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "19a58769977601b8bbc47959efeefb4bad5cc938d7dcde0c083c8227d8296026"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/unibilium@2.1.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Compiler",
+      "name": "clang",
+      "versionInfo": "16.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "checksums": [
+
+      ],
+      "externalRefs": [
+
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Bottle-neovim",
+      "name": "neovim",
+      "versionInfo": "0.10.3",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-12-21 17:15:18 UTC",
+      "licenseConcluded": "Apache-2.0",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:8befbbbf1e3af9afc48248656b4476244b46d991c7c1eeab422c083aa1d72cd8",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/homebrew/core/neovim@0.10.3",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8befbbbf1e3af9afc48248656b4476244b46d991c7c1eeab422c083aa1d72cd8"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-libvterm-0.3.3",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-neovim"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-msgpack-6.1.0",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-neovim"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-libunistring-1.3",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-neovim"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-gettext-0.23.1",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-neovim"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-libuv-1.49.2",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-neovim"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-lpeg-1.1.0",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-neovim"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-luajit-2.1.1736781742",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-neovim"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-luv-1.48.0-2",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-neovim"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-tree-sitter-0.24.7",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-neovim"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-unibilium-2.1.2",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-neovim"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-neovim",
+      "relationshipType": "PACKAGE_OF",
+      "relatedSpdxElement": "SPDXRef-Archive-neovim-src"
+    },
+    {
+      "spdxElementId": "SPDXRef-Compiler",
+      "relationshipType": "BUILD_TOOL_OF",
+      "relatedSpdxElement": "SPDXRef-Package-neovim-src"
+    }
+  ]
+}

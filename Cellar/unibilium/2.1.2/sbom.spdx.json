@@ -1,0 +1,95 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "name": "SBOM-SPDX-unibilium-2.1.2",
+  "creationInfo": {
+    "created": "2025-01-15T19:41:40Z",
+    "creators": [
+      "Tool: https://github.com/Homebrew/brew@4.4.16-31-g256e826"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://formulae.brew.sh/spdx/unibilium-2.1.2.json",
+  "documentDescribes": [
+    "SPDXRef-Archive-unibilium-src",
+    "SPDXRef-Compiler",
+    "SPDXRef-Bottle-unibilium"
+  ],
+  "files": [
+
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Archive-unibilium-src",
+      "name": "unibilium",
+      "versionInfo": "2.1.2",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-09-13 09:47:46 UTC",
+      "licenseConcluded": "LGPL-3.0-or-later",
+      "downloadLocation": "https://github.com/neovim/unibilium/archive/refs/tags/v2.1.2.tar.gz",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "370ecb07fbbc20d91d1b350c55f1c806b06bf86797e164081ccc977fc9b3af7a"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Compiler",
+      "name": "clang",
+      "versionInfo": "16.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "checksums": [
+
+      ],
+      "externalRefs": [
+
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Bottle-unibilium",
+      "name": "unibilium",
+      "versionInfo": "2.1.2",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-09-13 09:47:46 UTC",
+      "licenseConcluded": "LGPL-3.0-or-later",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/unibilium/blobs/sha256:19a58769977601b8bbc47959efeefb4bad5cc938d7dcde0c083c8227d8296026",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/homebrew/core/unibilium@2.1.2",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "19a58769977601b8bbc47959efeefb4bad5cc938d7dcde0c083c8227d8296026"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-File-unibilium",
+      "relationshipType": "PACKAGE_OF",
+      "relatedSpdxElement": "SPDXRef-Archive-unibilium-src"
+    },
+    {
+      "spdxElementId": "SPDXRef-Compiler",
+      "relationshipType": "BUILD_TOOL_OF",
+      "relatedSpdxElement": "SPDXRef-Package-unibilium-src"
+    }
+  ]
+}

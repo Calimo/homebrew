@@ -1,0 +1,124 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "name": "SBOM-SPDX-luv-1.48.0-2",
+  "creationInfo": {
+    "created": "2025-01-15T19:41:39Z",
+    "creators": [
+      "Tool: https://github.com/Homebrew/brew@4.4.16-31-g256e826"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://formulae.brew.sh/spdx/luv-1.48.0-2.json",
+  "documentDescribes": [
+    "SPDXRef-Archive-luv-src",
+    "SPDXRef-Package-SPDXRef-libuv-1.49.2",
+    "SPDXRef-Compiler",
+    "SPDXRef-Bottle-luv"
+  ],
+  "files": [
+
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Archive-luv-src",
+      "name": "luv",
+      "versionInfo": "1.48.0-2",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-03-02 02:48:06 UTC",
+      "licenseConcluded": "Apache-2.0",
+      "downloadLocation": "https://github.com/luvit/luv/archive/refs/tags/1.48.0-2.tar.gz",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e64cd8a0197449288b37df6ca058120e8d2308fc305f543162b5bf3e92273a05"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-libuv-1.49.2",
+      "name": "libuv",
+      "versionInfo": "1.49.2",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:1c30f58448ce9c0d30cef601a475a1986d1cf072188b110adf783c7002a9b559",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1c30f58448ce9c0d30cef601a475a1986d1cf072188b110adf783c7002a9b559"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/libuv@1.49.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Compiler",
+      "name": "clang",
+      "versionInfo": "16.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "checksums": [
+
+      ],
+      "externalRefs": [
+
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Bottle-luv",
+      "name": "luv",
+      "versionInfo": "1.48.0-2",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-03-02 02:48:06 UTC",
+      "licenseConcluded": "Apache-2.0",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:b573480537972f4d8479623184281fc3e5b78a3e8d92e8b5eaf743db9584e5d8",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/homebrew/core/luv@1.48.0-2",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b573480537972f4d8479623184281fc3e5b78a3e8d92e8b5eaf743db9584e5d8"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-libuv-1.49.2",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-luv"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-luv",
+      "relationshipType": "PACKAGE_OF",
+      "relatedSpdxElement": "SPDXRef-Archive-luv-src"
+    },
+    {
+      "spdxElementId": "SPDXRef-Compiler",
+      "relationshipType": "BUILD_TOOL_OF",
+      "relatedSpdxElement": "SPDXRef-Package-luv-src"
+    }
+  ]
+}

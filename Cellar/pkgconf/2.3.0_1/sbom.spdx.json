@@ -1,0 +1,95 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "name": "SBOM-SPDX-pkgconf-2.3.0",
+  "creationInfo": {
+    "created": "2025-01-15T19:50:24Z",
+    "creators": [
+      "Tool: https://github.com/Homebrew/brew@4.4.16-31-g256e826"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://formulae.brew.sh/spdx/pkgconf-2.3.0.json",
+  "documentDescribes": [
+    "SPDXRef-Archive-pkgconf-src",
+    "SPDXRef-Compiler",
+    "SPDXRef-Bottle-pkgconf"
+  ],
+  "files": [
+
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Archive-pkgconf-src",
+      "name": "pkgconf",
+      "versionInfo": "2.3.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-08-07 07:10:53 UTC",
+      "licenseConcluded": "ISC",
+      "downloadLocation": "https://distfiles.ariadne.space/pkgconf/pkgconf-2.3.0.tar.xz",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3a9080ac51d03615e7c1910a0a2a8df08424892b5f13b0628a204d3fcce0ea8b"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Compiler",
+      "name": "clang",
+      "versionInfo": "16.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "checksums": [
+
+      ],
+      "externalRefs": [
+
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Bottle-pkgconf",
+      "name": "pkgconf",
+      "versionInfo": "2.3.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-08-07 07:10:53 UTC",
+      "licenseConcluded": "ISC",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/pkgconf/blobs/sha256:fb3a6a6fcba8172e5e7512080ff0fb802526e4a93c384508d2e4031bd297e697",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/homebrew/core/pkgconf@2.3.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fb3a6a6fcba8172e5e7512080ff0fb802526e4a93c384508d2e4031bd297e697"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-File-pkgconf",
+      "relationshipType": "PACKAGE_OF",
+      "relatedSpdxElement": "SPDXRef-Archive-pkgconf-src"
+    },
+    {
+      "spdxElementId": "SPDXRef-Compiler",
+      "relationshipType": "BUILD_TOOL_OF",
+      "relatedSpdxElement": "SPDXRef-Package-pkgconf-src"
+    }
+  ]
+}

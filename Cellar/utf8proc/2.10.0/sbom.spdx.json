@@ -1,0 +1,95 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "name": "SBOM-SPDX-utf8proc-2.10.0",
+  "creationInfo": {
+    "created": "2025-01-15T19:51:47Z",
+    "creators": [
+      "Tool: https://github.com/Homebrew/brew@4.4.16-31-g256e826"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://formulae.brew.sh/spdx/utf8proc-2.10.0.json",
+  "documentDescribes": [
+    "SPDXRef-Archive-utf8proc-src",
+    "SPDXRef-Compiler",
+    "SPDXRef-Bottle-utf8proc"
+  ],
+  "files": [
+
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Archive-utf8proc-src",
+      "name": "utf8proc",
+      "versionInfo": "2.10.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-12-31 20:17:14 UTC",
+      "licenseConcluded": "MIT AND Unicode-DFS-2015",
+      "downloadLocation": "https://github.com/JuliaStrings/utf8proc/archive/refs/tags/v2.10.0.tar.gz",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6f4f1b639daa6dca9f80bc5db1233e9cbaa31a67790887106160b33ef743f136"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Compiler",
+      "name": "clang",
+      "versionInfo": "16.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "checksums": [
+
+      ],
+      "externalRefs": [
+
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Bottle-utf8proc",
+      "name": "utf8proc",
+      "versionInfo": "2.10.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-12-31 20:17:14 UTC",
+      "licenseConcluded": "MIT AND Unicode-DFS-2015",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/utf8proc/blobs/sha256:94a054d454bd5df62734457a4ac938ab20b3637ae8ee9d36e37fa72fb9adaf41",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/homebrew/core/utf8proc@2.10.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "94a054d454bd5df62734457a4ac938ab20b3637ae8ee9d36e37fa72fb9adaf41"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-File-utf8proc",
+      "relationshipType": "PACKAGE_OF",
+      "relatedSpdxElement": "SPDXRef-Archive-utf8proc-src"
+    },
+    {
+      "spdxElementId": "SPDXRef-Compiler",
+      "relationshipType": "BUILD_TOOL_OF",
+      "relatedSpdxElement": "SPDXRef-Package-utf8proc-src"
+    }
+  ]
+}

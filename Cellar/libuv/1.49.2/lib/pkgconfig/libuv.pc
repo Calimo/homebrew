@@ -1,0 +1,13 @@
+prefix=/Users/calimo/brew/Cellar/libuv/1.49.2
+exec_prefix=${prefix}
+libdir=/Users/calimo/brew/Cellar/libuv/1.49.2/lib
+includedir=${prefix}/include
+LIBUV_STATIC=-L${libdir} -l:libuv.a  
+
+Name: libuv
+Version: 1.49.2
+Description: multi-platform support library with a focus on asynchronous I/O.
+URL: http://libuv.org/
+
+Libs: -L${libdir} -luv  
+Cflags: -I${includedir}
