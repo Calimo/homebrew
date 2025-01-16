@@ -1,0 +1,48 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "name": "SBOM-SPDX-portable-ruby-3.3.6",
+  "creationInfo": {
+    "created": "2024-11-05T00:49:13Z",
+    "creators": [
+      "Tool: https://github.com/Homebrew/brew"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://formulae.brew.sh/spdx/portable-ruby-3.3.6.json",
+  "documentDescribes": [
+    "SPDXRef-Archive-portable-ruby-src"
+  ],
+  "files": [
+
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Archive-portable-ruby-src",
+      "name": "portable-ruby",
+      "versionInfo": "3.3.6",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-11-05 00:49:13 UTC",
+      "licenseConcluded": "Ruby",
+      "downloadLocation": "https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.6.tar.gz",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8dc48fffaf270f86f1019053f28e51e4da4cce32a36760a0603a9aee67d7fd8d"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-File-portable-ruby",
+      "relationshipType": "PACKAGE_OF",
+      "relatedSpdxElement": "SPDXRef-Archive-portable-ruby-src"
+    }
+  ]
+}
